@@ -12,14 +12,13 @@ This is a plugin for [ckeditor 5](https://github.com/ckeditor/ckeditor5). It all
 	</Figure>
 ```
 In the above example the 'table' class is assigned automatically by the editor. The next two classes 'foo' and 'bar' are assigned by this plugin.
-
 ![](help.gif)
 
 
 ## Install
 Install using NPM: 
 
-`npm install ckeditor5-table-classe`
+`npm install ckeditor5-table-classes`
 
 To add the functionality of this plugin you should make a custom build of the editor. Follow the instructions [here](https://docs.ckeditor.com/ckeditor5/latest/builds/guides/development/installing-plugins.html).
 
@@ -28,13 +27,13 @@ To load the plugin, configure ckeditor (e.g. edit file `ckeditor.js`) like this:
 
 #### Import plugin
 ```
-import import TableClassesPlugin from 'ckeditor5-table-classes/src/tableclasses';
+import import TableClassesPlugin from 'ckeditor5-table-classes/src/tableclasses;
 ```
 
 #### Import toolbar icons (optional)
 ```
-import Icon1 from 'path-to-icon/iconfile1.svg';
-import Icon2 from 'path-to-icon/iconfile2.svg';
+import Icon1 from 'path-to-icon/iconfile1.svg;
+import Icon2 from 'path-to-icon/iconfile2.svg;
 ```
 
 
