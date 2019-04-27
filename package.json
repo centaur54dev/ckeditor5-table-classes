@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-table-classes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A plugin for ckedito5 that helps assign custom classes to tables through the ui",
   "main": "tableclasses.js",
   "dependencies": {
