@@ -1,0 +1,34 @@
+{
+  "name": "ckeditor5-table-classes",
+  "version": "0.0.1",
+  "description": "A plugin for ckedito5 that helps assign custom classes to tables through the ui",
+  "main": "tableclasses.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-core": "^12.0.0",
+    "@ckeditor/ckeditor5-ui": "^12.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^11.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/centaur54dev/ckeditor5-table-classes.git"
+  },
+  "keywords": [
+    "ckeditor5",
+    "table",
+    "tables",
+    "classes",
+    "styles",
+    "css",
+    "styling",
+    "plugin"
+  ],
+  "author": "centaur54dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/centaur54dev/ckeditor5-table-classes/issues"
+  },
+  "homepage": "https://github.com/centaur54dev/ckeditor5-table-classes#readme"
+}
