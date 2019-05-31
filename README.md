@@ -27,7 +27,7 @@ To load the plugin, configure ckeditor (e.g. edit file `ckeditor.js`) like this:
 
 #### Import plugin
 ```
-import import TableClassesPlugin from 'ckeditor5-table-classes/src/tableclasses;
+import TableClassesPlugin from 'ckeditor5-table-classes/src/tableclasses;
 ```
 
 #### Import toolbar icons (optional)
@@ -85,4 +85,4 @@ The predifinded table classes can be customized in the 'TableClasses' object tha
 ## Use
 Select the entire table by clicking to the top-left handle. The table toolbar appears, from which the predefined items are available. Just click to one or more of them. The assigned classes stack for multiple activated items. You can identify between the items by their tooltip if no icons are loaded. 
 
-To observe any visual effect from the assigned classed you have to configure your css appopriately. 
+To observe any visual effect from the assigned classes you have to configure your css appropriately. 
