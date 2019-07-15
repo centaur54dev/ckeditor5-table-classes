@@ -43,32 +43,31 @@ Assuming that the build is based on Classic Editor:
 ```
 export default class ClassicEditor extends ClassicEditorBase {}
 
-	// Plugins to include in the build.
-	ClassicEditor.builtinPlugins = [
-		...
-		TableClassesPlugin,
-		...
-	],
+// Plugins to include in the build.
+ClassicEditor.builtinPlugins = [
+	...
+	TableClassesPlugin,
+	...
+],
 
-	ClassicEditor.defaultConfig = {
+ClassicEditor.defaultConfig = {
 
-		table: {
-			/*... other options here ...*/
+	table: {
+		/*... other options here ...*/
 
-			tableToolbar: ['tableclass-style1', 'tableclass-style2', ... ]
-		},
+		tableToolbar: ['tableclass-style1', 'tableclass-style2', ... ]
+	},
 
-		TableClasses:{
-			items:[
-				{id:"style1",   classes:'foo bar', icon:Icon1},
-				{id:"style2",   classes:'fancy',   icon:Icon2}
-			]
-		},
+	TableClasses:{
+		items:[
+			{id:"style1",   classes:'foo bar', icon:Icon1},
+			{id:"style2",   classes:'fancy',   icon:Icon2}
+		]
+	},
 
-
-		/* ... other options ... */
-	}
+	/* ... other options ... */
 };
+
 ```
 *Note: the toolbar item names should have the format: `tableclass-id`, where `id` should be replaced by the respective id property as defined in TableClasses object.*
 
