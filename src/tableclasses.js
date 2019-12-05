@@ -23,7 +23,7 @@ export class tableClassesMain extends Plugin {
 	init() {
 		const editor = this.editor;
 		const items  = editor.config.get(( 'TableClasses.items' ))
-
+		
 		for (let i=0; i<items.length; i++){
 			const userid = this._safeGet(items[i].id, "");
 			const comid = "tableclass-"+userid;
