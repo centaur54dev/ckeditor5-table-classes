@@ -4,9 +4,9 @@
   "description": "A plugin for ckedito5 that helps assign custom classes to tables through the ui",
   "main": "tableclasses.js",
   "dependencies": {
-    "@ckeditor/ckeditor5-core": "^17.0.0",
-    "@ckeditor/ckeditor5-ui": "^17.0.0",
-    "@ckeditor/ckeditor5-basic-styles": "^17.0.0"
+    "@ckeditor/ckeditor5-core": "^18.0.0",
+    "@ckeditor/ckeditor5-ui": "^18.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^18.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
